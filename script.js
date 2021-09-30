@@ -12,9 +12,6 @@ $(document).ready(function() {
             console.log(""+list[i]);
         }
 
-        list.push(["jack",5]);
-        list.push(["jill",4]);
-
         WordCloud.minFontSize = "20px"
         WordCloud(document.getElementById('word_cloud'), { list: list} );
         console.log("end");
